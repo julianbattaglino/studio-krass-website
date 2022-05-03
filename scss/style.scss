@@ -1,0 +1,140 @@
+@import "header";
+
+/*Global Styles*/
+html {
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+}
+body {
+	font-size: 16px;
+	font-family: 'Hong Bold', sans-serif;
+	font-weight: 300;
+	color: #2f3132;
+	background-color: #fff;
+	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+	font-family: 'Rubik', sans-serif;
+    color: #2f3132;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	padding: 25px 0;
+}
+ul, li {
+	list-style: none;
+}
+p {
+	font-size: 16px;
+	color: #2f3132;
+	line-height: 24px;
+}
+a,button {
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+a:hover {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.it {
+	font-style: italic;
+}
+.tc {
+	text-align: center;
+}
+.tr {
+	text-align: right;
+}
+.tl {
+	text-align: left;
+}
+.tt {
+	text-transform: uppercase;
+}
+.upp {
+	text-transform: uppercase;
+}
+.mbot50 {
+	margin-bottom: 50px !important;
+}
+.pbot60 {
+	padding-bottom: 60px;
+}
+.autoClearer:before,
+.autoClearer:after {
+    content: " ";
+    display: table;
+}
+.autoClearer:after {
+    clear: both;
+}
+input[type="radio"],
+input[type="checkbox"] {
+
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+}
+
+
+/*HOME PAGE*/
+section.intro {
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section.proyectos {
+	height: 100vh;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+button.btn-turquesa {
+	font-family: 'Rubik', sans-serif;
+	background-color: #2f3132;
+	color: #00ead0;
+	font-weight: bold;
+}
+
+button.btn-yellow {
+	font-family: 'Rubik', sans-serif;
+	color: #fff;
+	background-color: #2f3132;
+	font-weight: bold;
+	border: none;
+}
+
+button.btn-yellow:hover {
+	background-color: #2f3132;
+	border-radius: 5px;
+	color: #dcfd00;
+}
+
+
+
