@@ -1,4 +1,5 @@
 @import "header";
+@import "home";
 
 /*Global Styles*/
 html {
@@ -93,47 +94,6 @@ input[type="checkbox"] {
 input[type="text"],
 input[type="password"],
 input[type="email"] {
-}
-
-
-/*HOME PAGE*/
-section.intro {
-	height: 75vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-section.proyectos {
-	height: 100vh;
-}
-
-.flex-center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-}
-
-button.btn-turquesa {
-	font-family: 'Rubik', sans-serif;
-	background-color: #2f3132;
-	color: #00ead0;
-	font-weight: bold;
-}
-
-button.btn-yellow {
-	font-family: 'Rubik', sans-serif;
-	color: #fff;
-	background-color: #2f3132;
-	font-weight: bold;
-	border: none;
-}
-
-button.btn-yellow:hover {
-	background-color: #2f3132;
-	border-radius: 5px;
-	color: #dcfd00;
 }
 
 
