@@ -1,0 +1,24 @@
+{
+  "name": "studio-krass",
+  "version": "1.0.0",
+  "description": "Studio Krass - Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianbattaglino/studio-krass-website.git"
+  },
+  "author": "Julian Battaglino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianbattaglino/studio-krass-website/issues"
+  },
+  "homepage": "https://github.com/julianbattaglino/studio-krass-website#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
