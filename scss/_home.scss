@@ -34,6 +34,46 @@ button.btn-yellow:hover {
 	color: #dcfd00;
 }
 
+/*Seccion Tools*/
+section.tools {
+    padding: 150px 50px;
+
+}
+h2.left-title {
+    padding: 0;
+    text-align: left;
+}
+div.grid-tools {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+@media (max-width: 768px){
+    div.grid-tools {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+    div.grid-tools {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+img.tool-item {
+    max-width: 60%;
+    border-radius: 4px;
+}
+
+
+
+
+
 /*Seccion Proyectos*/
 section.proyectos {
     height: 100%;
