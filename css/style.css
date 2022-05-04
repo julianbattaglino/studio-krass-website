@@ -3,6 +3,10 @@
   margin-left: auto;
   padding: 0 50px; }
 
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 20px !important; } }
+
 .main {
   padding-top: 90px;
   display: block;
@@ -297,7 +301,6 @@ button.btn-yellow:hover {
 
 /*Seccion Proyectos*/
 section.proyectos {
-  height: 100vh;
   background-color: #f4f4f4; }
 
 div.grid-container {
@@ -307,6 +310,10 @@ div.grid-container {
   gap: 30px;
   margin: 0 50px;
   padding: 100px 0; }
+
+@media (max-width: 768px) {
+  div.grid-container {
+    margin: 0 15px; } }
 
 @media (max-width: 768px) {
   div.grid-container {
@@ -387,6 +394,9 @@ a, button {
 
 a:hover {
   text-decoration: none; }
+
+.margin-20 {
+  margin-top: 20px; }
 
 .clear {
   clear: both; }

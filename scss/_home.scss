@@ -36,7 +36,6 @@ button.btn-yellow:hover {
 
 /*Seccion Proyectos*/
 section.proyectos {
-	height: 100vh;
     background-color: #f4f4f4;
 }
 
@@ -47,6 +46,12 @@ div.grid-container {
     gap: 30px;
     margin: 0 50px;
     padding: 100px 0;
+}
+
+@media (max-width: 768px){
+    div.grid-container {
+        margin: 0 15px;
+    }
 }
 
 @media (max-width: 768px) {
