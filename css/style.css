@@ -349,6 +349,9 @@ button.btn-yellow:hover {
   color: #dcfd00; }
 
 /*Seccion About Us*/
+section.conocenos {
+  background-color: #f4f4f4; }
+
 div.col-about {
   margin-bottom: 100px; }
 
@@ -387,7 +390,9 @@ section.section-padding {
 
 h2.left-title {
   padding: 0 0 50px 0;
-  text-align: left; }
+  text-align: left;
+  font-weight: 700;
+  font-size: 36px; }
 
 div.grid-tools {
   display: grid;
