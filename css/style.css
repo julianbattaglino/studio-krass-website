@@ -352,27 +352,41 @@ button.btn-yellow:hover {
 div.col-about {
   margin-bottom: 100px; }
 
+@media (min-width: 1200px) {
+  div.col-about {
+    padding: 0 125px; } }
+
 img.about {
   display: flex;
-  margin: auto; }
+  margin: auto;
+  width: 175px; }
 
 h2.name {
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
+  font-weight: 700;
   padding-top: 25px; }
 
 h3.subtitle-grey {
-  color: #888888;
+  color: #697172;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   padding-top: 10px; }
 
-/*Seccion Tools*/
-section.tools {
+p.about {
+  font-family: 'Rubik', sans-serif;
+  padding-top: 10px; }
+
+/*Section Container*/
+section.section-padding {
   padding: 150px 50px; }
 
+@media (max-width: 1200px) {
+  section.section-padding {
+    padding: 150px 15px; } }
+
 h2.left-title {
-  padding: 0;
+  padding: 0 0 50px 0;
   text-align: left; }
 
 div.grid-tools {
@@ -486,6 +500,9 @@ p {
   font-size: 16px;
   color: #2f3132;
   line-height: 24px; }
+
+p.left {
+  text-align: left; }
 
 a, button {
   text-decoration: none;
