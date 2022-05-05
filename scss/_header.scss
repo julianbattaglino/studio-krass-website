@@ -35,6 +35,8 @@ header {
 .styk.open header {
 	padding: 10px 0;
 	/*background: rgba(0,0,0,0.7);*/
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+
 }
 header.open {
 	position: fixed;
@@ -275,6 +277,7 @@ a.underline:hover::after {
 		position: fixed;
 		height: 49px !important;
 		top: 0 !important;
+		
 	}
 	.styk.open header {
 		padding: 10px 0;
