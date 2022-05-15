@@ -204,37 +204,60 @@
 
 <!--SECTION PROJECTS-->   
 <section class="proyectos" id="proyectos">
-    <div class="grid-container">
 
-        <div class="grid-item">
-            <a href="#" target="_blank"><img class="img-item" src="assets/img/arcos4259-portfolio-webp.webp" alt="">
-            <h2 class="project-title"><b>Arcos 4259</b><br>Nuñez, Buenos Aires.</h2>            
-            <p class="project-extract">One Page - Web - Desarrollos Inmobiliarios</p></a>
-            <a href="#proyectos"><button type="button" class="btn btn-yellow margin-20">Ver más</button></a>
+    <div class="filters filter-button-group">
+        <ul>
+         <button class="btn btn-dark filter-button" data-filter="*">Todos</button>
+         <button class="btn btn-dark filter-button" data-filter=".one">One page</button>
+         <button class="btn btn-dark filter-button" data-filter=".web">Website</button>
+         <button class="btn btn-dark filter-button" data-filter=".ecc">E-commerce</button>
+        </ul>
+   
+       </div>
+       
+        <div class="isotope-grid" >
+            <div class="row row-isotope">
+                <!--Arcos 4250-->   
+                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                    <a href="#" target="_blank"><img class="img-item" src="assets/img/arcos4259-portfolio-webp.webp" alt="">
+                    <h2 class="project-title"><b>Arcos 4259</b></h2>            
+                    <p class="project-extract">One Page - Web - Desarrollos Inmobiliarios</p></a>
+                    <a href="#proyectos"><button type="button" class="btn btn-yellow margin-t-10">Ver más</button></a>
+                </div>
+                <!--HA Emprendimientos-->   
+                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                    <a href="#" target="_blank"><img class="img-item" src="assets/img/ha-emprendimientos-filter.webp" alt="">
+                    <h2 class="project-title"><b>HA Emprendimientos</b></h2>            
+                    <p class="project-extract">Web - Desarrollos Inmobiliarios - Arquitectura</p></a>
+                    <a href="#proyectos"><button type="button" class="btn btn-yellow margin-t-10">Ver más</button></a>
+                </div>
+                <!--Sense Manantiales-->   
+                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                    <a href="#" target="_blank"><img class="img-item" src="assets/img/sense-manantiales-filter.webp" alt="">
+                        <h2 class="project-title"><b>Sense Manantiales</b></h2>           
+                    <p class="project-extract">One Page - Web - Desarrollos Inmobiliarios</p></a>
+                    <a href="#proyectos"><button type="button" class="btn btn-yellow margin-t-10">Ver más</button></a>
+                </div>
+                <!--Sense Libertador-->   
+                <div class="col-12 col-md-6 col-xl-4 grid-item ecc gap-3">
+                    <a href="#" target="_blank"><img class="img-item" src="assets/img/senselibertador-filter.webp" alt="">
+                        <h2 class="project-title"><b>Sense Libertador</b></h2>            
+                    <p class="project-extract">One Page - Web - Desarrollos Inmobiliarios</p></a>
+                    <a href="#proyectos"><button type="button" class="btn btn-yellow margin-t-10">Ver más</button></a>
+                </div>
+                <!--Curma-->   
+                <div class="col-12 col-md-6 col-xl-4 grid-item ecc gap-3">
+                    <a href="#" target="_blank"><img class="img-item" src="assets/img/curma-filter.webp" alt="">
+                        <h2 class="project-title"><b>Curma Desarrollos Inmobiliarios</b></h2>            
+                    <p class="project-extract">OWeb - Desarrollos Inmobiliarios</p></a>
+                    <a href="#proyectos"><button type="button" class="btn btn-yellow margin-t-10">Ver más</button></a>
+                </div>
+
+
+                
+
+            </div>
         </div>
-
-        <div class="grid-item">
-            <a href="#" target="_blank"><img class="img-item" src="assets/img/ha-emprendimientos-filter.webp" alt="">
-            <h2 class="project-title"><b>HA Emprendimientos</b><br>Béccar, Provincia de Buenos Aires</h2>            
-            <p class="project-extract">Web - Desarrollos Inmobiliarios - Arquitectura</p></a>
-            <a href="#proyectos"><button type="button" class="btn btn-yellow margin-20">Ver más</button></a>
-        </div>
-
-        <div class="grid-item">
-            <a href="#" target="_blank"><img class="img-item" src="assets/img/sense-manantiales-filter.webp" alt="">
-                <h2 class="project-title"><b>Sense Manantiales</b><br>Manantiales - Maldonado, Uy.</h2>           
-            <p class="project-extract">One Page - Web - Desarrollos Inmobiliarios</p></a>
-            <a href="#proyectos"><button type="button" class="btn btn-yellow margin-20">Ver más</button></a>
-        </div>
-
-        <div class="grid-item">
-            <a href="#" target="_blank"><img class="img-item" src="assets/img/senselibertador-filter.webp" alt="">
-                <h2 class="project-title"><b>Sense Libertador</b><br>Acassuso, Buenos Aires.</h2>            
-            <p class="project-extract">One Page - Web - Desarrollos Inmobiliarios</p></a>
-            <a href="#proyectos"><button type="button" class="btn btn-yellow margin-20">Ver más</button></a>
-        </div>
-
-    </div>
 </section>
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
@@ -255,8 +278,7 @@ particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enabl
    
    $('.isotope-grid').isotope({
      itemSelector: '.grid-item',
-     layoutMode: 'fitRows',
-     filter: '.planta-baja'
+     filter: '*',
    });
    
    // filter items on button click
