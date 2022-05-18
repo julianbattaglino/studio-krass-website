@@ -308,13 +308,13 @@ a.underline:hover::after {
   .menu-nav .menu li {
     display: block;
     text-align: left;
-    margin: 25px 0;
+    margin: 15px 0;
     border: none; }
   .menu-nav .menu li:last-child {
     padding-right: 20px; }
   .menu-nav .menu li a {
     padding-bottom: 0;
-    font-size: 18px;
+    font-size: 1.6rem;
     font-weight: 700; } }
 
 /*HOME PAGE*/
@@ -337,15 +337,16 @@ button.btn-turquesa {
   font-weight: bold; }
 
 button.btn-yellow {
+  font-size: 1.6rem;
   font-family: 'Rubik', sans-serif;
   color: #fff;
   background-color: #2f3132;
   font-weight: bold;
-  border: none; }
+  border: none;
+  padding: 0.5rem 1.5rem; }
 
 button.btn-yellow:hover {
   background-color: #2f3132;
-  border-radius: 5px;
   color: #dcfd00; }
 
 /*Seccion About Us*/
@@ -422,8 +423,7 @@ img.tool-item {
 /*Seccion Proyectos*/
 section.proyectos {
   height: 100%;
-  background-color: #f4f4f4;
-  padding: 75px 50px; }
+  background-color: #f4f4f4; }
 
 div.row-isotope {
   margin: 75px 0 0 0; }
@@ -461,7 +461,8 @@ html {
   -webkit-overflow-scrolling: touch;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
-  scroll-padding-top: 25px; }
+  scroll-padding-top: 25px;
+  font-size: 10px; }
 
 body {
   font-size: 16px;
@@ -479,14 +480,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
   text-align: center; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal; }
+h1 {
+  font-size: 3.4rem; }
 
 ul, li {
   list-style: none; }
 
 p {
-  font-size: 16px;
+  font-size: 1.4rem;
   color: #2f3132;
   line-height: 24px; }
 
@@ -539,11 +540,3 @@ a:hover {
 
 .pbot60 {
   padding-bottom: 60px; }
-
-.autoClearer:before,
-.autoClearer:after {
-  content: " ";
-  display: table; }
-
-.autoClearer:after {
-  clear: both; }

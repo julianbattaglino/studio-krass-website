@@ -13,6 +13,7 @@ section.intro {
 	margin: auto;
 }
 
+
 button.btn-turquesa {
 	font-family: 'Rubik', sans-serif;
 	background-color: #2f3132;
@@ -21,16 +22,17 @@ button.btn-turquesa {
 }
 
 button.btn-yellow {
+    font-size: 1.6rem;
 	font-family: 'Rubik', sans-serif;
 	color: #fff;
 	background-color: #2f3132;
 	font-weight: bold;
 	border: none;
+    padding: 0.5rem 1.5rem;
 }
 
 button.btn-yellow:hover {
 	background-color: #2f3132;
-	border-radius: 5px;
 	color: #dcfd00;
 }
 
@@ -128,7 +130,6 @@ img.tool-item {
 section.proyectos {
     height: 100%;
     background-color: #f4f4f4;
-    padding: 75px 50px;
 }
 
 div.row-isotope {

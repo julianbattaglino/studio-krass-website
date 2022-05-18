@@ -9,6 +9,7 @@ html {
 	-webkit-font-smoothing: antialiased;
 	scroll-behavior: smooth;
 	scroll-padding-top: 25px;
+	font-size: 10px;
 }
 body {
 	font-size: 16px;
@@ -26,14 +27,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
 	margin: 0;
 	text-align: center;
 }
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
+
+h1 {
+	font-size: 3.4rem;
 }
+
 ul, li {
 	list-style: none;
 }
 p {
-	font-size: 16px;
+	font-size: 1.4rem;
 	color: #2f3132;
 	line-height: 24px;
 }
@@ -89,22 +92,5 @@ a:hover {
 .pbot60 {
 	padding-bottom: 60px;
 }
-.autoClearer:before,
-.autoClearer:after {
-    content: " ";
-    display: table;
-}
-.autoClearer:after {
-    clear: both;
-}
-input[type="radio"],
-input[type="checkbox"] {
-
-}
-input[type="text"],
-input[type="password"],
-input[type="email"] {
-}
-
 
 
