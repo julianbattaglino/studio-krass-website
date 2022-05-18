@@ -132,6 +132,18 @@ section.proyectos {
     background-color: #f4f4f4;
 }
 
+ul.filter-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 1024px){
+    ul.filter-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 div.row-isotope {
     margin: 75px 0 0 0;
 }
@@ -142,7 +154,7 @@ div.grid-item {
 }
 
 button.filter-button {
-    margin: 0 5px 0 5px;
+    margin: 5px 5px;
 }
 
 img.img-item {
