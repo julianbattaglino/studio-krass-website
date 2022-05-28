@@ -438,7 +438,6 @@ div.row-isotope {
   margin: 75px 0 0 0; }
 
 div.grid-item {
-  padding: 1rem;
   margin-bottom: 20px; }
 
 button.filter-button {
@@ -549,3 +548,9 @@ a:hover {
 
 .pbot60 {
   padding-bottom: 60px; }
+
+article {
+  padding: 1.5rem;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); }
