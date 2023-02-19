@@ -172,10 +172,16 @@ h2.project-title {
     text-align: left;
     color: #222222;
 }
-
-p.project-extract {
+h3.project-location {
     font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(34, 34, 34, 0.8);
+}
+p.project-extract {
+    font-size: 12px;
     text-align: left;
     color: #222222;
     font-weight: 400;
 }
+
