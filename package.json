@@ -4,7 +4,7 @@
   "description": "Studio Krass - Personal Website",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "build-css": "node-sass --include-path scss scss/style.scss assets/css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/julianbattaglino/studio-krass-website#readme",
   "devDependencies": {
-    "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
   }
 }
