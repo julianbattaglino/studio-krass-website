@@ -1,48 +1,66 @@
-$(document).ready(function(){
+$(document).ready(function () {
+  $(".hamburger").click(function (e) {
+    e.preventDefault();
+    $(this).toggleClass("open");
+    $('.menu-nav').toggleClass("open");
+  });
 
+  $(".princ").click(function (e) {
+    e.preventDefault();
+    $(".hamburger").removeClass("open");
+    $('.menu-nav').removeClass("open");
+  });
 
+  $(".bt-cont").click(function (e) {
+    e.preventDefault();
+    $(".contact-area").toggleClass("open");
+    $(this).toggleClass("open");
+  });
 
-$(".hamburger").click(function(e) {
-  		e.preventDefault();
-  		$(this).toggleClass( "open" );
-  		$('.menu-nav').toggleClass( "open" );
-	   });
-
-$(".princ").click(function(e) {
-  		e.preventDefault();
-  		$(".hamburger").removeClass( "open" );
-  		$('.menu-nav').removeClass( "open" );
-	   });
-
-$(".bt-cont").click(function(e) {
-      e.preventDefault();
-      $(".contact-area").toggleClass( "open" );
-      $(this).toggleClass( "open" );
-     });
-
-$(".gotop").click(function(e) {
-  e.preventDefault();
-      $('html,body').animate({
-          scrollTop: 0
-        }, 800);
-        return false;
-     });
+  $(".gotop").click(function (e) {
+    e.preventDefault();
+    $('html,body').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+  });
 
 });
 
 //******************************
 
 var element = 250;
-$(window).scroll(function(){
+$(window).scroll(function () {
   var y = $(window).scrollTop();
-    if (y >= element){
-     $(".styk").addClass("open");
-     //$("body").addClass("stk");
-    }else if (y < element){
-     $(".styk").removeClass("open");
-     //$("body").removeClass("stk");
-    }
+  if (y >= element) {
+    $(".styk").addClass("open");
+    //$("body").addClass("stk");
+  } else if (y < element) {
+    $(".styk").removeClass("open");
+    //$("body").removeClass("stk");
+  }
 });
+
+
+function recaptchaCallback() {
+  $('#submitBtn').prop('disabled', false);
+  $('#verifica').hide();
+  $('#sucess').show();
+}
+
+function recaptchaExpiredCallback() {
+  // Resetear recaptcha en caso de que el captcha expire
+  $('#submitBtn').prop('disabled', true);
+  grecaptcha.reset();
+  $('#sucess').hide();
+}
+
+function recaptchaErrorCallback() {
+  // Resetear recaptcha en caso de error por network connectivity
+  $('#submitBtn').prop('disabled', true);
+  grecaptcha.reset();
+}
+
 
 
 
