@@ -1,43 +1,55 @@
 /*HOME PAGE*/
 section.intro {
-	height: 75vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+@media (max-width: 1024px) {
+    #hero {
+        font-size: 22px;
+    }
+}
+
+
 .flex-center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 
 button.btn-turquesa {
-	font-family: 'Rubik', sans-serif;
-	background-color: #2f3132;
-	color: #00ead0;
-	font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    background-color: #2f3132;
+    color: #00ead0;
+    font-weight: bold;
 }
 
 button.btn-yellow {
     font-size: 1.6rem;
-	font-family: 'Rubik', sans-serif;
-	color: #fff;
-	background-color: #2f3132;
-	font-weight: bold;
-	border: none;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    background-color: #2f3132;
+    font-weight: bold;
+    border: none;
     padding: 0.5rem 1.5rem;
 }
 
 button.btn-yellow:hover {
-	background-color: #2f3132;
-	color: #dcfd00;
+    background-color: #2f3132;
+    color: #dcfd00;
+}
+
+/* Service Icons */
+.service-icons {
+    width: 40px;
 }
 
 /*Seccion About Us*/
-section.conocenos {
+section.light-grey {
     background-color: #f4f4f4;
 }
 
@@ -45,7 +57,7 @@ div.col-about {
     margin-bottom: 100px;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     div.col-about {
         padding: 0 125px;
     }
@@ -58,41 +70,48 @@ img.about {
 }
 
 h2.name {
-	font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     padding-top: 25px;
 }
 
 h3.subtitle-grey {
     color: #697172;
-	font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     padding-top: 10px;
 }
 
 p.about {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
     padding-top: 10px;
 }
 
 
 /*Section Container*/
-section.section-padding {
-    padding: 150px 50px;
+.section-padding {
+    padding: 50px 50px;
 }
-@media (max-width: 1200px){
-    section.section-padding {
-        padding: 150px 15px;
+
+@media (max-width: 1200px) {
+    .section-padding {
+        padding: 50px 15px;
     }
 }
 
-h2.left-title {
-    padding: 0 0 50px 0;
+.left-title {
     text-align: left;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 36px;
 }
+
+@media (max-width: 1024px) {
+    .left-title {
+        font-size: 28px;
+    }
+}
+
 div.grid-tools {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -108,15 +127,15 @@ div.tool-item {
     justify-content: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     div.grid-tools {
-    grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199.98px){
+@media (min-width: 768px) and (max-width: 1199.98px) {
     div.grid-tools {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -137,7 +156,7 @@ ul.filter-buttons {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     ul.filter-buttons {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -145,7 +164,7 @@ ul.filter-buttons {
 }
 
 div.row-isotope {
-    margin: 75px 0 0 0;
+    margin: 25px 0 0 0;
 }
 
 div.grid-item {
@@ -161,23 +180,20 @@ img.img-item {
     border-radius: 4px;
 }
 
-img.img-item:hover {
-    transform: scale(1.02);
-    transition: 0.3s all;
-}
-
 h2.project-title {
     font-size: 22px;
     padding: 10px 0 0 0 !important;
     text-align: left;
     color: #222222;
 }
+
 h3.project-location {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     text-align: left;
     color: rgba(34, 34, 34, 0.8);
 }
+
 p.project-extract {
     font-size: 12px;
     text-align: left;
@@ -185,3 +201,53 @@ p.project-extract {
     font-weight: 400;
 }
 
+/* Section Clients Grid Logos*/
+.logos-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 35px;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1400px) {
+    .logos-grid {
+        grid-template-columns: repeat(6, 1fr);
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logos-grid {
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+    }
+}
+
+.logo-item img {
+    display: block;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: filter 0.3s linear;
+}
+
+.logo-item img:hover {
+    filter: grayscale(0%);
+}
+
+
+/* Whatsapp Floating Button */
+.floating-wsp {
+    width: 60px;
+    height: 60px;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 120;
+    transition: all 0.6s cubic-bezier(0.68, 0.01, 0.22, 0.99);
+}
+
+.floating-wsp:hover {
+    opacity: 1;
+}
