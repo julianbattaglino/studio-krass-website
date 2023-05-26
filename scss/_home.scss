@@ -49,7 +49,7 @@ button.btn-yellow:hover {
 }
 
 /*Seccion About Us*/
-section.light-grey {
+.light-grey {
     background-color: #f4f4f4;
 }
 
@@ -66,7 +66,7 @@ div.col-about {
 img.about {
     display: flex;
     margin: auto;
-    width: 175px;
+    width: 125px;
 }
 
 h2.name {
@@ -234,6 +234,17 @@ p.project-extract {
 .logo-item img:hover {
     filter: grayscale(0%);
 }
+
+.logo-partner {
+    display: block;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: filter 0.3s linear;
+}
+.logo-partner img:hover {
+    filter: grayscale(0%);
+}
+
 
 
 /* Whatsapp Floating Button */
