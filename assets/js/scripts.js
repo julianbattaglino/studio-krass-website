@@ -1,3 +1,22 @@
+$(window).on('load', function () {
+
+  // Isotope INIT
+  $('.isotope-grid').isotope({
+    itemSelector: '.grid-item',
+    filter: '*',
+    gutter: 10,
+  });
+
+  // filter items on button click
+  $('.filter-button-group').on('click', 'button', function () {
+    var filterValue = $(this).attr('data-filter');
+    $('.isotope-grid').isotope({ filter: filterValue });
+    $('.filter-button-group').removeClass('active');
+    $(this).addClass('active');
+  });
+
+});
+
 $(document).ready(function () {
   $(".hamburger").click(function (e) {
     e.preventDefault();
