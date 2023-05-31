@@ -1,5 +1,6 @@
 @import "particles";
 @import "header";
+@import "circle-type";
 @import "home";
 @import "page-contact";
 
@@ -33,6 +34,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 	padding: 0;
 	margin: 0;
 }
+
 .padding-bottom-24 {
 	padding-bottom: 25px;
 }
@@ -42,6 +44,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .padding-bottom-100 {
 	padding-bottom: 100px;
+}
+.padding-top-100 {
+	padding-top: 100px;
 }
 
 .padding-rigth-75 {

@@ -1,7 +1,17 @@
 .form-floating {
-    color: #697172;
-    font-family: 'Rubik', sans-serif !important;
+    color: #51555b;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600 !important;
     font-size: 12px;
+}
+
+.social-icons {
+    width: 25px;
+    margin-right: 10px;
+    transition: all 0.5s ease;
+}
+.social-icons:hover {
+    scale: 1.1;
 }
 
 .alert {
