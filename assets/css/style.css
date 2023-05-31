@@ -78,7 +78,7 @@ header {
 
 .styk header {
   position: fixed;
-  z-index: 999999;
+  z-index: 100;
   top: 0; }
 
 .styk.open header {
@@ -225,7 +225,7 @@ a.underline:hover::after {
     margin: 0;
     padding: 0;
     cursor: pointer;
-    z-index: 99999;
+    z-index: 200;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -466,7 +466,8 @@ img.g-review {
 
 /* Lefleat Map*/
 #map {
-  height: 75vh; }
+  height: 75vh;
+  z-index: 1; }
 
 .leaflet-popup-content {
   width: 275px; }
