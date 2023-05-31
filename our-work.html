@@ -8,16 +8,18 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="./assets/css/animate.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <!-- Lefleat Css-->
+    <link rel="stylesheet" href="./assets/css/leaflet.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
@@ -56,6 +58,7 @@
 
     <!--SECTION PROJECTS-->
     <section class="proyectos section-padding" id="proyectos">
+        <h2 class="left-title mb-5 underline text-center"><span>Nuestros trabajos</span></h2>
 
         <div class="filters filter-button-group">
             <ul class="filter-buttons">
@@ -70,14 +73,29 @@
         <div class="isotope-grid">
             <div class="row row-isotope">
                 <!------------------------------ Trabajos 2023 ------------------------------>
-                <!--Amsterdam Cool Shoes-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <!--Netco Real Estate -->
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
-                                src="assets/img/portfolio/2023/amsterdam-cool-shoes-portfolio-webp.webp" alt="">
+                        <a href="#" target="_blank"><img class="img-item img-fluid img-fluid"
+                                src="assets/img/portfolio/2023/netco-realestate-webp.webp" alt="Netco Real Estate Web">
+                            <h2 class="project-title"><b>Netco Real Estate</b></h2>
+                            <h3 class="project-location">Argentina - España.</h3>
+                            <p class="project-extract">HTML5, CSS3, JS - PHP - Web - Real Estate</p>
+                        </a>
+                        <a href="#proyectos"><button type="button" class="btn btn-yellow margin-t-10">Ver
+                                más</button></a>
+                    </article>
+                </div>
+
+                <!--Amsterdam Cool Shoes-->
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
+                    <article>
+                        <a href="#" target="_blank"><img class="img-item img-fluid img-fluid"
+                                src="assets/img/portfolio/2023/amsterdam-cool-shoes-portfolio-webp.webp"
+                                alt="Amsterdam Cool Shoes Azul Provincia de Buenos Aires Web">
                             <h2 class="project-title"><b>Amsterdam Cool Shoes</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
-                            <p class="project-extract">E-commerce, Wordpress, Woocomerce, Instagram Shopping - Tienda de
+                            <p class="project-extract">E-commerce, Woocomerce, Instagram Shopping - Tienda de
                                 Ropa</p>
                         </a>
                         <a href="#proyectos"><button type="button" class="btn btn-yellow margin-t-10">Ver
@@ -87,9 +105,9 @@
 
 
                 <!--Buena Vista Carmelo-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2023/buena-vista-carmelo-webp.webp" alt="">
                             <h2 class="project-title"><b>Buena Vista Carmelo</b></h2>
                             <h3 class="project-location">Carmelo, Departamento de Colonia, Uruguay.</h3>
@@ -101,9 +119,9 @@
                 </div>
 
                 <!--Grupo Pills-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2023/grupo-pills-portfolio-webp.webp" alt="">
                             <h2 class="project-title"><b>Grupo Pills</b></h2>
                             <h3 class="project-location">CABA, Buenos Aires, Argentina.</h3>
@@ -117,9 +135,9 @@
 
                 <!------------------------------ Trabajos 2022 ------------------------------>
                 <!--React.js Seminario Escuchandonos-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2022/escuchandonos_portfolio.webp" alt="">
                             <h2 class="project-title"><b>Seminario Escuchandonos</b></h2>
                             <h3 class="project-location">Claremont, California, EE.UU.</h3>
@@ -131,9 +149,9 @@
                 </div>
 
                 <!--React.js Movimiento Evita Azul-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <!--div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2022/movimiento_evita_portfolio.webp" alt="">
                             <h2 class="project-title"><b>Movimiento Evita Azul</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -142,12 +160,12 @@
                         <a href="#proyectos"><button type="button" class="btn btn-yellow margin-t-10">Ver
                                 más</button></a>
                     </article>
-                </div>
+                </div-->
 
                 <!--Solisan Sanitarios-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2022/solisan-portfolio.webp" alt="">
                             <h2 class="project-title"><b>Solisan Sanitarios</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -158,9 +176,9 @@
                     </article>
                 </div>
                 <!--Sense 28-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2022/portfolio-sense-28.webp" alt="">
                             <h2 class="project-title"><b>Sense 28 Edgewater</b></h2>
                             <h3 class="project-location">Miami, Florida, EE.UU.</h3>
@@ -171,9 +189,9 @@
                     </article>
                 </div>
                 <!--Learn Idiomas-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2022/learn_idiomas_portfolio.webp" alt="">
                             <h2 class="project-title"><b>Learn Idiomas</b></h2>
                             <h3 class="project-location">Costebelle, Hyères, France.</h3>
@@ -184,9 +202,9 @@
                     </article>
                 </div>
                 <!--Arcos 4259-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2022/arcos4259-portfolio-webp.webp" alt="">
                             <h2 class="project-title"><b>Arcos 4259</b></h2>
                             <h3 class="project-location">CABA, Buenos Aires, Argentina.</h3>
@@ -197,9 +215,9 @@
                     </article>
                 </div>
                 <!--Ha Emprendimientos Version 2-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2022/ha-emprendimientos-filter.webp" alt="">
                             <h2 class="project-title"><b>HA Emprendimientos v2.0</b></h2>
                             <h3 class="project-location">Béccar, Buenos Aires, Argentina.</h3>
@@ -210,9 +228,9 @@
                     </article>
                 </div>
                 <!--Positive Mama-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2022/positive-mama-filter.webp" alt="">
                             <h2 class="project-title"><b>Positive Mama</b></h2>
                             <h3 class="project-location">Glenwood, London , UK.</h3>
@@ -223,9 +241,9 @@
                     </article>
                 </div>
                 <!--Ayuryoga Prenatal-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2022/ayuryoga-filter.webp" alt="">
                             <h2 class="project-title"><b>Vir Rocha - Yoga Prenatal v2.0</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -237,9 +255,9 @@
                 </div>
                 <!------------------------------ Trabajos 2021 ------------------------------>
                 <!--Sense Manantiales-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/sense-manantiales-filter.webp" alt="">
                             <h2 class="project-title"><b>Sense Manantiales</b></h2>
                             <h3 class="project-location">Manantiales, Maldonado, Uruguay.</h3>
@@ -250,9 +268,9 @@
                     </article>
                 </div>
                 <!--Sense Libertador-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2020/senselibertador-filter.webp" alt="">
                             <h2 class="project-title"><b>Sense Libertador</b></h2>
                             <h3 class="project-location">Accasuso, Buenos Aires, Argentina.</h3>
@@ -263,9 +281,9 @@
                     </article>
                 </div>
                 <!--Curma-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/curma-filter.webp" alt="">
                             <h2 class="project-title"><b>Curma Desarrollos Inmobiliarios</b></h2>
                             <h3 class="project-location">CABA, Buenos Aires, Argentina.</h3>
@@ -276,9 +294,9 @@
                     </article>
                 </div>
                 <!--Si Pinturas-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/si_pinturas-filter.webp" alt="">
                             <h2 class="project-title"><b>Si Pinturas</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -289,9 +307,9 @@
                     </article>
                 </div>
                 <!--Pinturerias el Universo-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/pinturerias-el-universo-filter.webp" alt="">
                             <h2 class="project-title"><b>Pinturerias el Universo</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -302,9 +320,9 @@
                     </article>
                 </div>
                 <!--SantaFest Azul-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/santa-fest-azul-filter.webp" alt="">
                             <h2 class="project-title"><b>Santa Fest Azul</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -316,9 +334,9 @@
                     </article>
                 </div>
                 <!--Benelli Azul-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/benellistoreazul_filter.webp" alt="">
                             <h2 class="project-title"><b>Benelli Store Azul</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -329,9 +347,9 @@
                     </article>
                 </div>
                 <!--Ha Emprendimientos Version 1-->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/ha-emprendimientos-1-filter.webp" alt="">
                             <h2 class="project-title"><b>Ha Emprendimientos - v1.0</b></h2>
                             <h3 class="project-location">Béccar, Buenos Aires, Argentina.</h3>
@@ -342,9 +360,9 @@
                     </article>
                 </div>
                 <!--Les Editions de la Messoneta -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/la_Mesonetta_filter.webp" alt="">
                             <h2 class="project-title"><b>Les Editions de la Mesonetta</b></h2>
                             <h3 class="project-location">France.</h3>
@@ -355,9 +373,9 @@
                     </article>
                 </div>
                 <!-- Moehs Fine Chemicals -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/moehsFineChemicals_mockup_responsive_webp.webp" alt="">
                             <h2 class="project-title"><b>Moehs Fine Chemicals</b></h2>
                             <h3 class="project-location">Barcelona, España.</h3>
@@ -368,9 +386,9 @@
                     </article>
                 </div>
                 <!-- Ropanroll Azul -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2021/ropanroll-filter.webp" alt="">
                             <h2 class="project-title"><b>Ropanroll Indumentaria</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -382,10 +400,10 @@
                 </div>
                 <!------------------------------ Trabajos 2020 ------------------------------>
                 <!-- IPI -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item one">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item one">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item" src="assets/img/portfolio/2020/ipi-filter.jpg"
-                                alt="">
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
+                                src="assets/img/portfolio/2020/ipi-filter.jpg" alt="">
                             <h2 class="project-title"><b>Integrative Teletherapy Inc - California</b></h2>
                             <h3 class="project-location">Claremont, California, EE.UU.</h3>
                             <p class="project-extract">One page - Web</p>
@@ -395,9 +413,9 @@
                     </article>
                 </div>
                 <!-- Passyou -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2020/passyou-filter.webp" alt="">
                             <h2 class="project-title"><b>Passyou Football Training</b></h2>
                             <h3 class="project-location">CABA, Buenos Aires, Argentina.</h3>
@@ -408,9 +426,9 @@
                     </article>
                 </div>
                 <!-- Abga Propiedades -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2020/abga-propiedades-filter.webp" alt="">
                             <h2 class="project-title"><b>Abga Propiedades</b></h2>
                             <h3 class="project-location">CABA, Buenos Aires, Argentina.</h3>
@@ -421,9 +439,9 @@
                     </article>
                 </div>
                 <!-- Zappy Amps -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2020/zappy_mockup_responsive.webp" alt="">
                             <h2 class="project-title"><b>Zappy Amps</b></h2>
                             <h3 class="project-location">Rosario, Santa Fe, Argentina.</h3>
@@ -434,9 +452,9 @@
                     </article>
                 </div>
                 <!-- Ayuryoga Prenatal v1.0 -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2020/ayuryoga1-filter.webp" alt="">
                             <h2 class="project-title"><b>Vir Rocha - Yoga Prenatal v1.0</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -447,9 +465,9 @@
                     </article>
                 </div>
                 <!-- Que Comemos Azul -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2020/que-comemos-filter.webp" alt="">
                             <h2 class="project-title"><b>Que Comemos Azul</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -461,9 +479,9 @@
                 </div>
                 <!------------------------------ Trabajos 2019 ------------------------------>
                 <!-- Interior Efimero -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2019/InteriorEfimero_filter.webp" alt="">
                             <h2 class="project-title"><b>Interior Efimero</b></h2>
                             <h3 class="project-location">Rosario, Santa Fe, Argentina.</h3>
@@ -474,9 +492,9 @@
                     </article>
                 </div>
                 <!-- Marcelo Kopp -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2019/marcelo-kopp-filter.webp" alt="">
                             <h2 class="project-title"><b>Marcelo Kopp</b></h2>
                             <h3 class="project-location">Rosario, Santa Fe, Argentina.</h3>
@@ -487,9 +505,9 @@
                     </article>
                 </div>
                 <!-- La Pata de Hernandez -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2019/la-pata-de-hernandez-filter.webp" alt="">
                             <h2 class="project-title"><b>La Pata de Hernandez</b></h2>
                             <h3 class="project-location">San Isidro, Buenos Aires, Argentina.</h3>
@@ -500,9 +518,9 @@
                     </article>
                 </div>
                 <!-- Radio el Semillero deAzul -->
-                <div class="col-12 col-md-6 col-xl-4 grid-item web ecc">
+                <div class="col-12 col-md-6 col-xxl-3 grid-item web ecc">
                     <article>
-                        <a href="#" target="_blank"><img class="img-item"
+                        <a href="#" target="_blank"><img class="img-item img-fluid"
                                 src="assets/img/portfolio/2019/radioelSemilleroAzul_portfolio_filter.webp" alt="">
                             <h2 class="project-title"><b>Radio el Semillero de Azul</b></h2>
                             <h3 class="project-location">Azul, Buenos Aires, Argentina.</h3>
@@ -518,42 +536,18 @@
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script type="text/javascript">
-        particlesJS("particles-js", { "particles": { "number": { "value": 80, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#000000" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.3, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "top", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "grab" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true }); var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function () { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;</script>
-
-
     <!--Jquery 3-6-0 CDN-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/jquery-3.7.0.js" id='jquery'></script>
     <!--Main Scripts js-->
     <script type='text/javascript' src='assets/js/scripts.js' id='scripts-js'></script>
-
+    <!--circle type js-->
+    <script src="assets/js/circletype.min.js"></script>
     <!--Isotope js-->
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-    <!--Isotope INIT-->
-    <script>
-        $(document).ready(function () {
-
-            $('.isotope-grid').isotope({
-                itemSelector: '.grid-item',
-                filter: '*',
-                gutter: 10,
-            });
-
-            // filter items on button click
-            $('.filter-button-group').on('click', 'button', function () {
-                var filterValue = $(this).attr('data-filter');
-                $('.isotope-grid').isotope({ filter: filterValue });
-                $('.filter-button-group').removeClass('active');
-                $(this).addClass('active');
-            });
-        })
-    </script>
-
+    <script src="./assets/js/isotope.pkgd.js"></script>
+    <!-- Lefleat JS-->
+    <script src="./assets/js/leaflet.js"></script>
     <!--AOS.js (animate on scroll)-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/aos.js"></script>
     <!--  AOS INIT js -->
     <script>
         AOS.init();
@@ -561,26 +555,11 @@
 
 
     <!--Bootstrap 5 & Popper-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
+    <script src="./assets/js/popper-2.11.8.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
     <!--TypeIt.js-->
-    <script src="https://unpkg.com/typeit@8.5.3/dist/index.umd.js"></script>
-    <!--TypeIt.js INIT-->
-    <script>
-        new TypeIt("#hero", {
-            speed: 50,
-            startDelay: 900,
-        })
-            .type("Uniendo creatividad y tecnología <br>", { delay: 100 })
-            .pause(200)
-            .type(' para crear experiencias<span class="place"> digitales</span>', { delay: 400 })
-            .type('<br><strong class="font-semibold">únicas e innovadoras.</strong>', { speed: 100,})
-            .go();
-    </script>
+    <script src="./assets/js/typeit-8.7.1.js"></script>
+
 
 </body>
 
