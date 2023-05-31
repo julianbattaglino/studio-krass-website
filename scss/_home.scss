@@ -142,6 +142,7 @@ img.g-review {
 /* Lefleat Map*/
 #map { 
 	height: 75vh;
+    z-index: 1;
 }
 .leaflet-popup-content {
     width: 275px;
