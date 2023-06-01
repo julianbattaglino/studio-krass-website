@@ -70,12 +70,11 @@
             <div class="col-12 col-md-5 padding-bottom-50">
                 <h2 class="left-title pb-4 underline"><span>Líderes en transformación digital.</span></h2>
                 <h2 class="left-title pb-4"></h2>
-                <h2 class="pb-4">Tu partner tecnológico. Soluciones digitales a medida. </h2>
+                <h2 class="pb-4">Nuestro objetivo es crear experiencias integrales únicas, que hagan crecer tu negocio.</h2>
                 <p class="left pb-4">
                     En Studio Krass, entendemos que cada negocio es único. Por eso, ofrecemos soluciones digitales a
                     medida que se adaptan a tus necesidades y metas. Con nuestro enfoque personalizado y calidad
                     impecable, llevaremos tu negocio al siguiente nivel en el mundo digital.
-                    <br>
                     <!--Nuestra expertise en WordPress, HTML, CSS, JS, REACT.JS y PHP garantiza que nuestros sitios web sean
                     efectivos y rentables para nuestros clientes, para que puedas dormir tranquilo sabiendo que tenes el
                     mejor equipo atras tuyo. Además, no somos robots, por lo que trabajamos en colaboración vos para que
@@ -117,6 +116,7 @@
                 <p class="padding-rigth-75">Somos unos verdaderos cazadores de tendencias y tecnologías de vanguardia.
                     Creamos sitios web alucinantes que combinan diseños minimalistas y asombrosos, porque creemos que la
                     simplicidad es el toque mágico que cautiva a los usuarios.
+                    Desarrollamos sitios a medida en HTML5, CSS3, Javascript, React.js. Apasionados y curiosos, nos encanta estar actualizados con las tendencias tecnológicas.
                 </p>
             </div>
             <div class="col-12 col-xl-3 col-md-6 padding-bottom-100">
@@ -528,9 +528,9 @@
 
 
     <!-- Principio del widget integrado de Calendly -->
-    <div class="calendly-inline-widget" data-url="https://calendly.com/julianbattaglino/studio-krass-meet"
-        style="min-width:320px;height:700px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!--div class="calendly-inline-widget" data-url="https://calendly.com/julianbattaglino/studio-krass-meet"
+        style="min-width:320px;height:700px;"></div-->
+    <!--script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script-->
     <!-- Final del widget integrado de Calendly -->
 
     <!-- Section Contact Form -->
@@ -550,10 +550,24 @@
                         <p>contacto@studiokrass.com.ar</p>
                     </a>
                 </ul>
-                <img class="social-icons pt-3" src="./assets/img/icons/whatsapp.svg">
-                <img class="social-icons pt-3" src="./assets/img/icons/instagram.svg">
-                <img class="social-icons pt-3" src="./assets/img/icons/envelope-open-regular.svg">
-                <img class="social-icons pt-3" src="./assets/img/icons/github.svg">
+
+                <a href="https://wa.me/5492281563701?text=Hola%20me%20contacto%20desde%20studiokrass.com.ar"
+                    target="_blank">
+                    <img class="social-icons pt-3" src="./assets/img/icons/whatsapp.svg">
+                </a>
+
+                <a href="https://www.instagram.com/estudiokrass/" target="_blank">
+                    <img class="social-icons pt-3" src="./assets/img/icons/instagram.svg">
+                </a>
+
+                <a href="mailto:contacto@studiokrass.com.ar" target="_blank">
+                    <img class="social-icons pt-3" src="./assets/img/icons/envelope-open-regular.svg">
+                </a>
+
+                <a href="https://github.com/julianbattaglino" target="_blank">
+                    <img class="social-icons pt-3" src="./assets/img/icons/github.svg">
+                </a>
+
             </div>
 
 
@@ -649,6 +663,17 @@
                 </g>
             </svg></a>
     </div>
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6LelTtwlAAAAAGj4p6EUG7PBAWd1g9XF0SO7KAbR"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LerFeslAAAAAFVYxJ-xFKtHoz-MLgh9jTiChMx3', { action: 'contacto' })
+                .then(function (token) {
+                    document.getElementById('recaptcha_token').value = token;
+                    console.log("Token Recaptcha: " + token);
+                });
+        });
+    </script>
 
 
     <script src="./assets/js/particles.js"></script>
